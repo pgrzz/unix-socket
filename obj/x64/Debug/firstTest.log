@@ -1,0 +1,21 @@
+﻿  Validating architecture
+  Validating sources
+  Copying sources remotely
+  Starting remote build
+  Compiling sources:
+  main.cpp
+D:\c++\firstTest\firstTest\main.cpp(29,37): warning : conversion to 'int' from 'ssize_t {aka long int}' may alter its value [-Wconversion]
+D:\c++\firstTest\firstTest\main.cpp(33,5): warning : suggest braces around empty body in an 'else' statement [-Wempty-body]
+D:\c++\firstTest\firstTest\main.cpp(37,47): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\c++\firstTest\firstTest\main.cpp(110,44): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\c++\firstTest\firstTest\unp.h(21,16): warning : 'ssize_t my_read(int, char*)' declared 'static' but never defined [-Wunused-function]
+  unp.cpp
+D:\c++\firstTest\firstTest\unp.cpp(18,39): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\c++\firstTest\firstTest\unp.cpp(39,44): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\c++\firstTest\firstTest\unp.cpp(55,58): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\c++\firstTest\firstTest\unp.cpp(76,18): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\c++\firstTest\firstTest\unp.cpp(77,32): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\c++\firstTest\firstTest\unp.cpp(51,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\c++\firstTest\firstTest\unp.cpp(91,1): warning : control reaches end of non-void function [-Wreturn-type]
+  Linking objects
+  firstTest.vcxproj -> D:\c++\firstTest\firstTest\bin\x64\Debug\firstTest.out
