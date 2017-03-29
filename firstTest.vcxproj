@@ -61,6 +61,8 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="epollTest.cpp" />
+    <ClCompile Include="Firstpoll.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="unp.cpp" />
   </ItemGroup>

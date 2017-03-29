@@ -12,13 +12,14 @@
 #include<SYS/stropts.h>
 #include<limits.h>
 #include<sys/epoll.h>
+#include<netdb.h>
 using namespace std;
 #ifndef MAXLINE
 #define MAXLINE 1024
 #endif // !MAXLINE
 
 #ifndef SERV_PORT
-#define SERV_PORT 8888
+#define SERV_PORT "8888"
 #endif // !SERV_PORT
 
 #ifndef BACKLOG
